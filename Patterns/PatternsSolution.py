@@ -1,4 +1,4 @@
-print("Star Pattern")
+print("Star Patterns")
 
 def one():
     print("1.")
@@ -199,27 +199,61 @@ def thirteen():
 
 thirteen()
 
+def fourteen():
+    print("14.")
+    mid = int(9/2) + 1
+    for i in range(1,9+1):
+        if i <= mid:
+            for j in range(1,(mid-i)+1):
+                print("  ", end = "")
+            for j in range(1,i+1):
+                print("* ", end = "")
+            print("\n", end = "")
+        else:
+            for j in range(mid,i):
+                print("  ", end = "")
+            for j in range(1,(9-i+1)+1):
+                print("* ", end = "")
+            print("\n", end = "")
 
+fourteen()
 
+def fifteen():
+    print("15.")
+    mid = 9//2 + 1
+    space = 0
+    for i in range(mid,1-1,-1):
+        for j in range(1,space+1):
+            print("  ", end = "")
+        space += 2
+        for j in range(1,i+1):
+            print("* ", end = "")
+        print("\n", end = "")
+    space -= 4
+    for  i in range(mid+1,9+1):
+        for j in range(1,space+1):
+            print("  ", end = "")
+        space -= 2
+        for j in range(1,(i-(9//2))+1):
+            print("* ", end = "")
+        print("\n", end = "")
+        
+fifteen()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-    
-
-
+def sixteen():
+    print("16.")
+    mid = 9//2 + 1
+    for i in range(mid,1-1,-1):
+        for j in range(1,(i-1)+1):
+            print("  ", end = "")
+        for j in range(1,i+1):
+            print("* ", end = "")
+        print("\n", end = "")
+    for  i in range(mid+1,9+1):
+        for j in range(1,(i-mid)+1):
+            print("  ", end = "")
+        for j in range(1,(i-(9//2))+1):
+            print("* ", end = "")
+        print("\n", end = "")
+        
+sixteen()
