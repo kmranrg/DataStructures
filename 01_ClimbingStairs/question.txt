@@ -1,4 +1,4 @@
-Climbing Stairs
+CLIMBING STAIRS
 
 You are climbing a staircase. It takes n steps to reach the top.
 
@@ -28,4 +28,4 @@ Explanation: There are three ways to climb to the top.
 Constraints:
 1 <= n <= 45
 
-Ref: https://www.youtube.com/watch?v=Y0lT9Fck7qI
+Ref: https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0
