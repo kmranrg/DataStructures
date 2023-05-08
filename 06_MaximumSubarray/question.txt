@@ -1,4 +1,4 @@
-MAXIMUM SUBSTRING
+MAXIMUM SUBARRAY
 
 Given an integer array nums, find the 
 subarray
